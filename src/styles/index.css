@@ -1,0 +1,23 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Slick Carousel Styles */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+/* Custom Slick Carousel Overrides for Dark Theme */
+.slick-dots li button:before {
+  color: #EAB308 !important;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #EAB308 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #EAB308 !important;
+}
